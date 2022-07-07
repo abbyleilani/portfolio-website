@@ -1,20 +1,28 @@
-body {
-  margin: 50px 100px;
+h1,
+h2 {
+  font-family: "Lora", serif;
+  font-style: italic;
 }
 
 h1 {
-  font-family: "Lora", serif;
-  font-style: italic;
   margin-top: 200px;
   margin-left: 100px;
 }
 
-img {
+.hero {
+  background: #ede9de;
+}
+
+.headshot {
   width: 1000px;
   margin: 100px 50px;
 }
 
 .homepage-about {
+  margin-left: 100px;
+}
+
+.primary-link {
   margin-left: 100px;
 }
 
