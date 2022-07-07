@@ -9,15 +9,15 @@ h1 {
   margin-left: 100px;
 }
 
-p {
-  margin-left: 100px;
-}
-
 img {
   width: 1000px;
   margin: 100px 50px;
 }
 
+.homepage-about {
+  margin-left: 100px;
+}
+
 .app-icons {
-  width: 100px;
+  width: 400px;
 }
