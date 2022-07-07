@@ -1,4 +1,23 @@
+body {
+  margin: 50px 100px;
+}
+
 h1 {
   font-family: "Lora", serif;
   font-style: italic;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+p {
+  margin-left: 100px;
+}
+
+img {
+  width: 1000px;
+  margin: 100px 50px;
+}
+
+.app-icons {
+  width: 100px;
 }
