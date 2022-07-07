@@ -1,29 +1,49 @@
-h1,
-h2 {
-  font-family: "Lora", serif;
-  font-style: italic;
+:root {
+  --primary-color: #2c7071;
+  --primary-font-family: "Poppins", sans-serif;
 }
 
-h1 {
-  margin-top: 200px;
-  margin-left: 100px;
+h1,
+h2 {
+  font-family: var(--primary-font-family);
+  font-weight: bold 700;
+  color: var(--primary-color);
+}
+
+p {
+  font-family: "Lora", serif;
 }
 
 .hero {
   background: #ede9de;
 }
 
-.headshot {
+.hero h1 {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.hero img {
   width: 1000px;
-  margin: 100px 50px;
+  margin: 50px 50px;
 }
 
-.homepage-about {
+.hero p,
+a {
   margin-left: 100px;
 }
 
-.primary-link {
-  margin-left: 100px;
+.hero p {
+  margin-bottom: 40px;
+}
+
+.hero a {
+  text-decoration: none;
+  color: var(--primary-color);
+  border: 1px solid white;
+  background-color: white;
+  padding: 30px 15px;
+  border-radius: 50px 50px;
 }
 
 .app-icons {
