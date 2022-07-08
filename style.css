@@ -3,8 +3,8 @@
 }
 
 .hero img {
-  width: 400px;
-  margin: 100px 50px;
+  width: 700px;
+  margin: 50px 50px;
 }
 
 .hero h1 {
@@ -69,18 +69,20 @@ img {
 .nav-link:hover,
 .app-link:hover {
   background: #5c5e5b;
-  color: #ffb070;
+  color: #b5d3af;
   transition: all 350ms ease-in-out;
 }
 
 .weather-icon {
-  border: 55px solid #f2eff9;
+  border: 40px solid #f2eff9;
 }
 
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 36px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
   }
 
   h2 {
@@ -89,12 +91,16 @@ img {
   }
 
   h3 {
-    text-align: center;
+    text-align: left;
     font-size: 20px;
   }
   .nav-link {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+
+  .app-link {
+    margin-bottom: 50px;
   }
 }
