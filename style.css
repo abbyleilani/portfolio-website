@@ -69,8 +69,12 @@ img {
 .nav-link:hover,
 .app-link:hover {
   background: #5c5e5b;
-  color: white;
+  color: #ffb070;
   transition: all 350ms ease-in-out;
+}
+
+.weather-icon {
+  border: 25px solid #f2eff9;
 }
 
 @media (max-width: 576px) {
