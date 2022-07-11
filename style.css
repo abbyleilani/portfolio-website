@@ -50,7 +50,6 @@ img {
 .nav-link,
 .app-link {
   display: flex;
-  margin-top: 40px;
   justify-content: center;
   border: 1px solid black;
   border-radius: 4px;
@@ -60,6 +59,10 @@ img {
   background-color: black;
   color: white;
   font-family: "Courier New", Courier, monospace;
+}
+
+.nav-link {
+  margin: 20px 200px;
 }
 
 .nav-link a {
