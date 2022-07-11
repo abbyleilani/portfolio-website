@@ -1,32 +1,10 @@
-.hero {
-  background: black;
-}
-
-.hero img {
-  width: 700px;
-  margin: 50px 50px;
-}
-
-.hero h1 {
-  color: #ffff;
-  font-family: "Times New Roman", Times, serif;
-  margin: 100px 50px;
-}
-
 h1,
 h2 {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 
-h1 {
-  margin: 100px 0;
-  padding: 75px 75px;
-  font-size: 56px;
-}
-
 h2 {
-  margin-top: 100px;
   font-size: 56px;
 }
 
@@ -47,6 +25,23 @@ img {
   margin-bottom: 100px;
 }
 
+.hero {
+  background: black;
+  padding: 160px 20px;
+}
+
+.hero img {
+  width: 700px;
+  margin: 50px 50px;
+}
+
+.hero h1 {
+  color: #ffff;
+  font-family: "Times New Roman", Times, serif;
+  margin: 200px 50px;
+  font-size: 56px;
+}
+
 .nav-link,
 .app-link {
   display: flex;
@@ -62,7 +57,7 @@ img {
 }
 
 .nav-link {
-  margin: 20px 200px;
+  margin: 20px 32px;
 }
 
 .nav-link a {
@@ -78,6 +73,10 @@ img {
 
 .weather-icon {
   border: 40px solid #f2eff9;
+}
+
+.about-section {
+  padding: 160px 20px;
 }
 
 @media (max-width: 576px) {
