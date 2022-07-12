@@ -82,6 +82,15 @@ img {
   font-size: 18px;
 }
 
+.email-link {
+  text-decoration: none;
+  color: black;
+}
+
+.email-link:hover {
+  color: #69856c;
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 36px;
