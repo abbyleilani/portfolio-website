@@ -14,7 +14,6 @@ h3 {
 }
 
 p {
-  margin-top: 50px;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
@@ -75,13 +74,12 @@ img {
   border: 40px solid #f2eff9;
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
-  font-family: "Courier New", Courier, monospace;
 }
 
 @media (max-width: 576px) {
