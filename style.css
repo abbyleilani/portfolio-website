@@ -79,6 +79,11 @@ img {
   padding: 160px 20px;
 }
 
+.about-section h2 {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 36px;
