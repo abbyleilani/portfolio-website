@@ -99,6 +99,7 @@ footer {
 .email-link:hover,
 .social-links a:hover {
   color: #69856c;
+  transition: all 350ms ease-in-out;
 }
 
 footer .social-links a {
