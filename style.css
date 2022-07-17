@@ -77,13 +77,13 @@ footer {
   font-size: 18px;
 }
 
-.email-link {
+.special-links {
   text-decoration: none;
   color: black;
   font-family: "Courier New", Courier, monospace;
 }
 
-.email-link:hover,
+.special-links:hover,
 .social-links a:hover {
   color: #69856c;
   transition: all 350ms ease-in-out;
