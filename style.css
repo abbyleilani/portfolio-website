@@ -121,6 +121,14 @@ footer .contact-box {
     margin: 10px 10px;
   }
 
+  .content-container h1 {
+    font-size: 36px;
+  }
+
+  .content-container p {
+    font-size: 14px;
+  }
+
   footer .special-links,
   footer .social-links {
     font-size: 18px;
