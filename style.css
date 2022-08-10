@@ -67,6 +67,7 @@ footer {
 
 .weather-icon {
   border: 40px solid #f2eff9;
+  width: 400px;
 }
 
 .content-container {
@@ -81,6 +82,12 @@ footer {
   text-decoration: none;
   color: black;
   font-family: "Courier New", Courier, monospace;
+}
+
+.work-graphics {
+  width: 400px;
+  margin: 25px auto;
+  display: block;
 }
 
 .special-links:hover,
