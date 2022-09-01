@@ -51,6 +51,15 @@ footer {
   font-size: 56px;
 }
 
+.headshot {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  max-width: 500px;
+  border: solid 1px black;
+  border-radius: 50%;
+}
+
 .btn {
   font-family: "Courier New", Courier, monospace;
   padding: 15px 25px;
