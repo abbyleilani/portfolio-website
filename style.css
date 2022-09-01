@@ -145,6 +145,10 @@ footer .contact-box {
     font-size: 14px;
   }
 
+  .headshot {
+    max-width: 175px;
+  }
+
   footer .special-links,
   footer .social-links {
     font-size: 18px;
