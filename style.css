@@ -28,6 +28,11 @@ body {
   max-width: 400px;
 }
 
+.main-image:hover {
+  transform: scale(1.25);
+  transition: all 500ms ease-in-out;
+}
+
 @media (max-width: 576px) {
   .main-image {
     max-width: 250px;
