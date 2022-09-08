@@ -1,156 +1,35 @@
-h1,
-h2,
-h4 {
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-}
-
-h2,
-h4 {
-  font-size: 56px;
-}
-
-h3 {
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-}
-
-p {
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-}
-
-img {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-}
-
-footer {
-  margin: 60px 0;
-}
-
-.navbar {
+body {
   font-family: "Courier New", Courier, monospace;
 }
 
 .hero {
-  background: black;
-  padding: 160px 20px;
+  margin: 50px auto;
+  padding: 25px 25px;
 }
 
-.hero img {
-  width: 700px;
-  margin: 50px 50px;
+.hero p {
+  text-align: center;
 }
 
-.hero h1 {
-  color: #ffff;
-  font-family: "Times New Roman", Times, serif;
-  margin: 200px 50px;
-  font-size: 56px;
-}
-
-.headshot {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-  max-width: 500px;
-  border: solid 1px black;
-  border-radius: 50%;
-}
-
-.btn {
-  font-family: "Courier New", Courier, monospace;
-  padding: 15px 25px;
-  margin: 10px;
-  border-radius: 0%;
-}
-
-.btn:hover {
-  background: #5c5e5b;
-  border: 1px solid #5c5e5b;
-  color: #b5d3af;
-  transition: all 350ms ease-in-out;
-}
-
-.weather-icon {
-  border: 40px solid #f2eff9;
-  width: 400px;
-}
-
-.content-container {
-  padding: 160px 20px;
-}
-
-.content-container h2 {
-  font-size: 18px;
-}
-
-.special-links {
+.links {
   text-decoration: none;
   color: black;
-  font-family: "Courier New", Courier, monospace;
 }
 
-.work-graphics {
-  width: 400px;
-  margin: 25px auto;
+.links:hover {
+  color: blueviolet;
+  transition: all 300ms ease-in-out;
+}
+
+.main-image {
   display: block;
-}
-
-.special-links:hover,
-.social-links a:hover {
-  color: #69856c;
-  transition: all 350ms ease-in-out;
-}
-
-footer .social-links a {
-  margin: 0 20px;
-  color: black;
-  font-size: 24px;
-}
-
-footer .contact-box {
-  margin: 50px 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
 }
 
 @media (max-width: 576px) {
-  p {
-    font-size: 24px;
-  }
-
-  h2,
-  footer h4 {
-    text-align: center;
-    font-size: 36px;
-  }
-
-  h3 {
-    text-align: center;
-    font-size: 20px;
-  }
-  .hero h1 {
-    font-size: 36px;
-    display: flex;
-    justify-content: center;
-    margin: 10px 10px;
-  }
-
-  .content-container h1 {
-    font-size: 36px;
-  }
-
-  .content-container p {
-    font-size: 14px;
-  }
-
-  .headshot {
-    max-width: 175px;
-  }
-
-  footer .special-links,
-  footer .social-links {
-    font-size: 18px;
+  .main-image {
+    max-width: 250px;
   }
 }
