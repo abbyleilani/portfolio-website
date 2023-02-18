@@ -2,6 +2,12 @@ body {
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-size: 26px;
+  color: #d3efff;
+  background-color: black;
+}
+
+.navbar-toggler {
+  color: #d3efff;
 }
 
 .btn {
@@ -11,7 +17,8 @@ body {
 }
 
 .btn:hover {
-  background-color: blueviolet;
+  background-color: #b9d346;
+  border-color: #b9d346;
   transition: all 300ms ease-in-out;
 }
 .about-hero,
@@ -30,11 +37,11 @@ body {
 .links {
   display: inline;
   text-decoration: none;
-  color: black;
+  color: #d3efff;
 }
 
 .links:hover {
-  color: blueviolet;
+  color: #b9d346;
   transition: all 300ms ease-in-out;
 }
 
@@ -67,7 +74,7 @@ body {
     font-family: "Playfair Display", serif;
   }
   .about-image {
-    max-width: 250px;
+    max-width: 500px;
   }
 
   .btn {
