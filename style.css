@@ -63,7 +63,7 @@ p {
   display: block;
   margin: 30px auto;
   transition: transform 0.2s;
-  max-width: 700px;
+  max-width: 450px;
 }
 
 .project-images:hover {
